@@ -18,5 +18,6 @@ Here, I used four method -------
      
 # Report Generate Using Two Commands --------------
 =======================keep your jmx file in bin===========create a folder in bin called "report"
-jmeter -n -t PracticeJmeter_100.jmx -l report\PracticeJmeter_100.jtl
-jmeter -g report\PracticeJmeter_100.jtl -o report\PracticeJmeter_100.html
+
+    ->jmeter -n -t PracticeJmeter_100.jmx -l report\PracticeJmeter_100.jtl
+    ->jmeter -g report\PracticeJmeter_100.jtl -o report\PracticeJmeter_100.html
